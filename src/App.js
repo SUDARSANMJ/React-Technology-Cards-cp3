@@ -38,12 +38,12 @@ const cardsList = [
 
 const App = () => (
   <div className="cards-app-container">
-    <div className="cards-list-conatainer">
+    <div className="cards-list-container">
       <h1 className="heading">Learning 4.0 Technologies</h1>
       <p className="description">
-        Get trained by alumni of IITs and top companies like amazon, microsoft,
+        Get trained by alumni of iits and top companies like amazon, microsoft,
         Intel, Nvidia, Qualcomm, itc.Learn directly from professionals involved
-        in product developement.
+        in product development.
       </p>
       <ul className="cards-list">
         {cardsList.map(eachCard => (

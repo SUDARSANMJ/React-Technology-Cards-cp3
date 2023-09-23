@@ -10,7 +10,7 @@ const CardItem = props => {
       <h1 className="card-title">{title}</h1>
       <p className="card-description">{description}</p>
       <div className="img-container">
-        <img className="card-img" src={imgUrl} alt={title} />>
+        <img className="card-img" src={imgUrl} alt={title} />
       </div>
     </li>
   )
